@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Felipa');
+
+
+p{
+	color: pink;
+	font-family: 'Raleway', sans-serif; 
+}
+
+#heading {
+	color: #f99bbe;
+	font-family: 'Felipa', cursive;
+}
+
+.wow {
+	color: blue;
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	color:purple;
+}
+
+a:visited {
+	color: orange;
+}
