@@ -1,26 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Felipa');
 
 
 p{
-	color: pink;
+	color: #8c9ec8;
 	font-family: 'Raleway', sans-serif; 
 }
 
 #heading {
-	color: #f99bbe;
-	font-family: 'Felipa', cursive;
+	color: #B0C6FB;
+	font-family: 'Raleway', sans-serif; 
+}
+#Meow {
+	color: #B0C6FB;
+	font-family: 'Raleway', sans-serif; 
+}
+#lol {
+	color: #B0C6FB;
+	font-family: 'Raleway', sans-serif; 
+}
 }
 
 .wow {
-	color: blue;
+	color: #B0C6FB;
 	font-family: 'Raleway', sans-serif;
 }
 
 a{
-	color:purple;
+	color:#B0C6FB;
 }
 
 a:visited {
-	color: orange;
+	color: #B0C6FB;
 }
