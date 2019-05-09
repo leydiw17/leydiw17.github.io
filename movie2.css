@@ -1,0 +1,295 @@
+img {
+    max-width:50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+   }
+
+
+p{
+  text-align: center;
+}
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: red;
+  cursor: pointer; 
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer; 
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer; 
+}
+
+/* Subnav button */
+.subnav .subnavbtn  {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+ font-family: 'Fredoka One', cursive;
+  margin: 0;
+  cursor: pointer; 
+}
+
+/* The subnavigation menu */
+.subsubnav {
+  float: left;
+  overflow: hidden;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer; 
+}
+
+/* Subnav button */
+.subsubnav .subsubnavbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+ font-family: 'Fredoka One', cursive;
+  margin: 0;
+  cursor: pointer; 
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn, .subsubnav:hover .subsubnavbtn{
+  background-color: #bb0b27;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer; 
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+  cursor: pointer; 
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer; 
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #bb0b27;
+  color: white;
+  cursor: pointer; 
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+  cursor: pointer; 
+
+}
+
+/* Style the subsubnav content - positioned absolute */
+.subsubnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #F25463;
+  width: 100%;
+  z-index: 1;
+  cursor: pointer; 
+}
+
+/* Style the subnav links */
+.subsubnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer; 
+}
+
+/* Add a grey background color on hover */
+.subsubnav-content a:hover {
+  background-color: #bb0b27;
+  color: white;
+  cursor: pointer; 
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subsubnav:hover .subsubnav-content {
+  display: block;
+cursor: pointer; 
+}
+
+
+  
+#poster {
+  display:block;
+    margin: auto;
+    padding-right: 45px;
+}
+
+#stars {
+  max-width: 100%;
+   display:block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+h1 {
+  
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  padding-right: 50px;
+  font-size: 75px;
+}
+h2 {
+  
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  padding-right: 50px;
+}
+h3{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  padding-right: 50px;
+  font-size: 30px;
+}
+p{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  padding-right: 50px;
+}
+
+ul{
+  font-family: 'Fredoka One', cursive;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media(max-width:375px){ 
+
+
+  .column {
+    width: 100%;
+  }
+  
+  #logo{
+    height: 100px;
+    width: 400px;
+   padding-right: 30px;
+    
+
+  }
+  img#stars{
+    width: 350px;
+    height: 100px;
+    padding-top: 20px;
+    padding-right: 400px;
+  }
+
+  h1 {
+  
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  padding-left: 5px;
+  font-size: 50px;
+}
+h2 {
+  
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  font-size: 25px;
+  
+}
+h3{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+ font-size: 30px;
+ 
+}
+p{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  padding-left: 10px;
+  font-size: 20px;
+  
+}
+  .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  width: 50%;
+  height: 50%;
+  
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  
+}
+} 
+
+
+.videoWrapper {
+
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;}
+  
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+
